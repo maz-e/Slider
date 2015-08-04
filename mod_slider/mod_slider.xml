@@ -15,7 +15,7 @@
    </files>
    <config>
       <fields name="params">
-         <fieldset name="slider1" label="Primer Slide">
+         <fieldset name="basic">
             <field
 				 name="show_slide_1"
 				 type="radio"
@@ -35,10 +35,35 @@
              size="10"
             />
             <field
+					name="color_title_1"
+					type="list"
+					default="red"
+					label="Color del titulo"
+					description="Selecciona el color para el titulo"
+				>
+					<option value="red">Rojo</option>
+					<option value="pink">Rosa</option>
+					<option value="purple">Morado</option>
+               <option value="indigo">Indigo</option>
+					<option value="blue">Azul</option>
+					<option value="cyan">Cyan</option>
+               <option value="teal">Teal</option>
+					<option value="green">Verde</option>
+					<option value="lime">Lima</option>
+               <option value="yellow">Amarillo</option>
+					<option value="amber">Ambar</option>
+					<option value="orange">Naranja</option>
+               <option value="brown">Marron</option>
+					<option value="grey">Gris</option>
+					<option value="blue-grey">Azul grisaceo</option>
+               <option value="black">Negro</option>
+					<option value="white">Blanco</option>
+				</field>
+            <field
              name="url_slide_1"
              type="url"
              default=""
-             label="Enter a URL"
+             label="URL"
              description=""
              size="10"
             />
@@ -50,12 +75,521 @@
              size="10"
             />
             <field
+				 name="color_slogan_1"
+				 type="radio"
+				 default="light"
+				 class="btn-group btn-group-yesno"
+   			 label="Color del subtitulo"
+				 description=""
+				>
+               <option value="light">Light</option>
+               <option value="dark">Dark</option>
+				</field>
+            <field
 				 name="imageslider_1"
 				 type="media"
 				 label="Imagen"
 				 description="Selecciona una imagen"
 				 directory="slider"
 				/>
+            <field
+             name="alt_text_1"
+             type="text"
+             label="Texto alternativo"
+             description="Introduce un texto alternativo de la imagen"
+             size="10"
+            />
+            <field
+					name="text_direction_1"
+					type="list"
+					default="left-align"
+					label="Flotación del texto"
+					description="Selecciona la posicion del texto"
+				>
+					<option value="left-align">Izquierda</option>
+					<option value="right-align">Derecha</option>
+					<option value="center-align">Centro</option>
+				</field>
+         </fieldset>
+         <fieldset name="slide_2" label="Slide 2">
+            <field
+				 name="show_slide_2"
+				 type="radio"
+				 default="0"
+				 class="btn-group btn-group-yesno"
+   			 label="Mostrar Slide"
+				 description="Selecciona si se muestra el slide"
+				>
+               <option value="1">JSHOW</option>
+               <option value="0">JHIDE</option>
+				</field>
+            <field
+             name="title_2"
+             type="text"
+             label="Titulo"
+             description="Introduce un titulo para el Slide"
+             size="10"
+            />
+            <field
+					name="color_title_2"
+					type="list"
+					default="red"
+					label="Color del titulo"
+					description="Selecciona el color para el titulo"
+				>
+					<option value="red">Rojo</option>
+					<option value="pink">Rosa</option>
+					<option value="purple">Morado</option>
+               <option value="indigo">Indigo</option>
+					<option value="blue">Azul</option>
+					<option value="cyan">Cyan</option>
+               <option value="teal">Teal</option>
+					<option value="green">Verde</option>
+					<option value="lime">Lima</option>
+               <option value="yellow">Amarillo</option>
+					<option value="amber">Ambar</option>
+					<option value="orange">Naranja</option>
+               <option value="brown">Marron</option>
+					<option value="grey">Gris</option>
+					<option value="blue-grey">Azul grisaceo</option>
+               <option value="black">Negro</option>
+					<option value="white">Blanco</option>
+				</field>
+            <field
+             name="url_slide_2"
+             type="url"
+             default=""
+             label="URL"
+             description=""
+             size="10"
+            />
+            <field
+             name="slogan_2"
+             type="text"
+             label="Subtitulo"
+             description="Introduce un slogan"
+             size="10"
+            />
+            <field
+				 name="color_slogan_2"
+				 type="radio"
+				 default="light"
+				 class="btn-group btn-group-yesno"
+   			 label="Color del subtitulo"
+				 description=""
+				>
+               <option value="light">Light</option>
+               <option value="dark">Dark</option>
+				</field>
+            <field
+				 name="imageslider_2"
+				 type="media"
+				 label="Imagen"
+				 description="Selecciona una imagen"
+				 directory="slider"
+				/>
+            <field
+             name="alt_text_2"
+             type="text"
+             label="Texto alternativo"
+             description="Introduce un texto alternativo de la imagen"
+             size="10"
+            />
+            <field
+					name="text_direction_2"
+					type="list"
+					default="left-align"
+					label="Flotación del texto"
+					description="Selecciona la posicion del texto"
+				>
+					<option value="left-align">Izquierda</option>
+					<option value="right-align">Derecha</option>
+					<option value="center-align">Centro</option>
+				</field>
+         </fieldset>
+         <fieldset name="slide_3" label="Slide 3">
+            <field
+				 name="show_slide_3"
+				 type="radio"
+				 default="0"
+				 class="btn-group btn-group-yesno"
+   			 label="Mostrar Slide"
+				 description="Selecciona si se muestra el slide"
+				>
+               <option value="1">JSHOW</option>
+               <option value="0">JHIDE</option>
+				</field>
+            <field
+             name="title_3"
+             type="text"
+             label="Titulo"
+             description="Introduce un titulo para el Slide"
+             size="10"
+            />
+            <field
+					name="color_title_3"
+					type="list"
+					default="red"
+					label="Color del titulo"
+					description="Selecciona el color para el titulo"
+				>
+					<option value="red">Rojo</option>
+					<option value="pink">Rosa</option>
+					<option value="purple">Morado</option>
+               <option value="indigo">Indigo</option>
+					<option value="blue">Azul</option>
+					<option value="cyan">Cyan</option>
+               <option value="teal">Teal</option>
+					<option value="green">Verde</option>
+					<option value="lime">Lima</option>
+               <option value="yellow">Amarillo</option>
+					<option value="amber">Ambar</option>
+					<option value="orange">Naranja</option>
+               <option value="brown">Marron</option>
+					<option value="grey">Gris</option>
+					<option value="blue-grey">Azul grisaceo</option>
+               <option value="black">Negro</option>
+					<option value="white">Blanco</option>
+				</field>
+            <field
+             name="url_slide_3"
+             type="url"
+             default=""
+             label="URL"
+             description=""
+             size="10"
+            />
+            <field
+             name="slogan_3"
+             type="text"
+             label="Subtitulo"
+             description="Introduce un slogan"
+             size="10"
+            />
+            <field
+				 name="color_slogan_3"
+				 type="radio"
+				 default="light"
+				 class="btn-group btn-group-yesno"
+   			 label="Color del subtitulo"
+				 description=""
+				>
+               <option value="light">Light</option>
+               <option value="dark">Dark</option>
+				</field>
+            <field
+				 name="imageslider_3"
+				 type="media"
+				 label="Imagen"
+				 description="Selecciona una imagen"
+				 directory="slider"
+				/>
+            <field
+             name="alt_text_3"
+             type="text"
+             label="Texto alternativo"
+             description="Introduce un texto alternativo de la imagen"
+             size="10"
+            />
+            <field
+					name="text_direction_3"
+					type="list"
+					default="left-align"
+					label="Flotación del texto"
+					description="Selecciona la posicion del texto"
+				>
+					<option value="left-align">Izquierda</option>
+					<option value="right-align">Derecha</option>
+					<option value="center-align">Centro</option>
+				</field>
+         </fieldset>
+         <fieldset name="slide_4" label="Slide 4">
+            <field
+				 name="show_slide_4"
+				 type="radio"
+				 default="0"
+				 class="btn-group btn-group-yesno"
+   			 label="Mostrar Slide"
+				 description="Selecciona si se muestra el slide"
+				>
+               <option value="1">JSHOW</option>
+               <option value="0">JHIDE</option>
+				</field>
+            <field
+             name="title_4"
+             type="text"
+             label="Titulo"
+             description="Introduce un titulo para el Slide"
+             size="10"
+            />
+            <field
+					name="color_title_4"
+					type="list"
+					default="red"
+					label="Color del titulo"
+					description="Selecciona el color para el titulo"
+				>
+					<option value="red">Rojo</option>
+					<option value="pink">Rosa</option>
+					<option value="purple">Morado</option>
+               <option value="indigo">Indigo</option>
+					<option value="blue">Azul</option>
+					<option value="cyan">Cyan</option>
+               <option value="teal">Teal</option>
+					<option value="green">Verde</option>
+					<option value="lime">Lima</option>
+               <option value="yellow">Amarillo</option>
+					<option value="amber">Ambar</option>
+					<option value="orange">Naranja</option>
+               <option value="brown">Marron</option>
+					<option value="grey">Gris</option>
+					<option value="blue-grey">Azul grisaceo</option>
+               <option value="black">Negro</option>
+					<option value="white">Blanco</option>
+				</field>
+            <field
+             name="url_slide_4"
+             type="url"
+             default=""
+             label="URL"
+             description=""
+             size="10"
+            />
+            <field
+             name="slogan_4"
+             type="text"
+             label="Subtitulo"
+             description="Introduce un slogan"
+             size="10"
+            />
+            <field
+				 name="color_slogan_4"
+				 type="radio"
+				 default="light"
+				 class="btn-group btn-group-yesno"
+   			 label="Color del subtitulo"
+				 description=""
+				>
+               <option value="light">Light</option>
+               <option value="dark">Dark</option>
+				</field>
+            <field
+				 name="imageslider_4"
+				 type="media"
+				 label="Imagen"
+				 description="Selecciona una imagen"
+				 directory="slider"
+				/>
+            <field
+             name="alt_text_4"
+             type="text"
+             label="Texto alternativo"
+             description="Introduce un texto alternativo de la imagen"
+             size="10"
+            />
+            <field
+					name="text_direction_4"
+					type="list"
+					default="left-align"
+					label="Flotación del texto"
+					description="Selecciona la posicion del texto"
+				>
+					<option value="left-align">Izquierda</option>
+					<option value="right-align">Derecha</option>
+					<option value="center-align">Centro</option>
+				</field>
+         </fieldset>
+         <fieldset name="slide_5" label="Slide 5">
+            <field
+				 name="show_slide_5"
+				 type="radio"
+				 default="0"
+				 class="btn-group btn-group-yesno"
+   			 label="Mostrar Slide"
+				 description="Selecciona si se muestra el slide"
+				>
+               <option value="1">JSHOW</option>
+               <option value="0">JHIDE</option>
+				</field>
+            <field
+             name="title_5"
+             type="text"
+             label="Titulo"
+             description="Introduce un titulo para el Slide"
+             size="10"
+            />
+            <field
+					name="color_title_5"
+					type="list"
+					default="red"
+					label="Color del titulo"
+					description="Selecciona el color para el titulo"
+				>
+					<option value="red">Rojo</option>
+					<option value="pink">Rosa</option>
+					<option value="purple">Morado</option>
+               <option value="indigo">Indigo</option>
+					<option value="blue">Azul</option>
+					<option value="cyan">Cyan</option>
+               <option value="teal">Teal</option>
+					<option value="green">Verde</option>
+					<option value="lime">Lima</option>
+               <option value="yellow">Amarillo</option>
+					<option value="amber">Ambar</option>
+					<option value="orange">Naranja</option>
+               <option value="brown">Marron</option>
+					<option value="grey">Gris</option>
+					<option value="blue-grey">Azul grisaceo</option>
+               <option value="black">Negro</option>
+					<option value="white">Blanco</option>
+				</field>
+            <field
+             name="url_slide_5"
+             type="url"
+             default=""
+             label="URL"
+             description=""
+             size="10"
+            />
+            <field
+             name="slogan_5"
+             type="text"
+             label="Subtitulo"
+             description="Introduce un slogan"
+             size="10"
+            />
+            <field
+				 name="color_slogan_5"
+				 type="radio"
+				 default="light"
+				 class="btn-group btn-group-yesno"
+   			 label="Color del subtitulo"
+				 description=""
+				>
+               <option value="light">Light</option>
+               <option value="dark">Dark</option>
+				</field>
+            <field
+				 name="imageslider_5"
+				 type="media"
+				 label="Imagen"
+				 description="Selecciona una imagen"
+				 directory="slider"
+				/>
+            <field
+             name="alt_text_5"
+             type="text"
+             label="Texto alternativo"
+             description="Introduce un texto alternativo de la imagen"
+             size="10"
+            />
+            <field
+					name="text_direction_5"
+					type="list"
+					default="left-align"
+					label="Flotación del texto"
+					description="Selecciona la posicion del texto"
+				>
+					<option value="left-align">Izquierda</option>
+					<option value="right-align">Derecha</option>
+					<option value="center-align">Centro</option>
+				</field>
+         </fieldset>
+         <fieldset name="slide_6" label="Slide 6">
+            <field
+				 name="show_slide_6"
+				 type="radio"
+				 default="0"
+				 class="btn-group btn-group-yesno"
+   			 label="Mostrar Slide"
+				 description="Selecciona si se muestra el slide"
+				>
+               <option value="1">JSHOW</option>
+               <option value="0">JHIDE</option>
+				</field>
+            <field
+             name="title_6"
+             type="text"
+             label="Titulo"
+             description="Introduce un titulo para el Slide"
+             size="10"
+            />
+            <field
+					name="color_title_6"
+					type="list"
+					default="red"
+					label="Color del titulo"
+					description="Selecciona el color para el titulo"
+				>
+					<option value="red">Rojo</option>
+					<option value="pink">Rosa</option>
+					<option value="purple">Morado</option>
+               <option value="indigo">Indigo</option>
+					<option value="blue">Azul</option>
+					<option value="cyan">Cyan</option>
+               <option value="teal">Teal</option>
+					<option value="green">Verde</option>
+					<option value="lime">Lima</option>
+               <option value="yellow">Amarillo</option>
+					<option value="amber">Ambar</option>
+					<option value="orange">Naranja</option>
+               <option value="brown">Marron</option>
+					<option value="grey">Gris</option>
+					<option value="blue-grey">Azul grisaceo</option>
+               <option value="black">Negro</option>
+					<option value="white">Blanco</option>
+				</field>
+            <field
+             name="url_slide_6"
+             type="url"
+             default=""
+             label="URL"
+             description=""
+             size="10"
+            />
+            <field
+             name="slogan_6"
+             type="text"
+             label="Subtitulo"
+             description="Introduce un slogan"
+             size="10"
+            />
+            <field
+				 name="color_slogan_6"
+				 type="radio"
+				 default="light"
+				 class="btn-group btn-group-yesno"
+   			 label="Color del subtitulo"
+				 description=""
+				>
+               <option value="light">Light</option>
+               <option value="dark">Dark</option>
+				</field>
+            <field
+				 name="imageslider_6"
+				 type="media"
+				 label="Imagen"
+				 description="Selecciona una imagen"
+				 directory="slider"
+				/>
+            <field
+             name="alt_text_6"
+             type="text"
+             label="Texto alternativo"
+             description="Introduce un texto alternativo de la imagen"
+             size="10"
+            />
+            <field
+					name="text_direction_6"
+					type="list"
+					default="left-align"
+					label="Flotación del texto"
+					description="Selecciona la posicion del texto"
+				>
+					<option value="left-align">Izquierda</option>
+					<option value="right-align">Derecha</option>
+					<option value="center-align">Centro</option>
+				</field>
          </fieldset>
       </fields>
    </config>
