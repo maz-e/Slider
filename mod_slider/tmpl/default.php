@@ -4,7 +4,7 @@ defined('_JEXEC') or die;
 ?>
 <div class="slider fullscreen">
    <ul class="slides">
-      <?php for ($i=0; $i < 6 ; $i++) : ?>
+      <?php for ($i=1; $i <= 6 ; $i++) : ?>
          <?php if($params->get("show_slide_$i") == 1) : ?>
             <li>
                <img src="<?php echo $params->get("imageslider_$i"); ?>" alt="<?php echo $params->get("alt_text_$i"); ?>" />
